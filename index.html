@@ -1,0 +1,12 @@
+<html ng-app="sample">
+	<head>
+		<meta charset="utf-8" />
+		<title>Sample Site</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.4/angular.min.js" type="text/javascript"></script>
+		<script src="bundle.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<h2>Sample</h2>
+		<div ng-controller="MainController as $ctrl" ng-include="'/src/components/main/main.html'"></div>
+	</body>
+</html>
